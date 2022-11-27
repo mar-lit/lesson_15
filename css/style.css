@@ -207,14 +207,14 @@ body{
 	background: #FF3F3A;
 }
 
-.decor-main {
+.decor-main, .decor-about {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
 }
-.decor-main__item {
+.decor-main__item, .decor-about__item {
 	position: absolute;
 }
 .decor-main__item--1 {
@@ -335,3 +335,19 @@ body{
     top: 5px;
     left: -32px;
 }
+
+.decor-about__item--1 {
+	background: url('../img/about/decor/dots.svg') 0 0 no-repeat;
+	width: 100%;
+    height: 100%;
+    top: 26%;
+    left: -6.5%;
+}
+.decor-about__item--2 {
+	background: url('../img/about/decor/circles.svg') 0 0 no-repeat;
+    width: 287px;
+    height: 287px;
+    bottom: 9.8%;
+    right: -8.5%;
+}
+
